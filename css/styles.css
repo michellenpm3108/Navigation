@@ -1,27 +1,44 @@
-header {
-    margin: 0 auto;
-    text-align: center;
-}
-.site-title{
-    margin: 30px;
-}
+
+/* TYPOGRAPHY */
 h1{
     margin: 0;
     font-family: Lora;
     font-size: 2 rem;
     color: #143774;
 }
-header p {
+.subtitle {
     margin: 0;
     font-family: ubuntu;
     font-size: .75 rem;
     font-weight: bold;
-    color: #1792d2;
+    color: #1792d2;  
+}
+@media (max-width: 675px) {
+    .site-title{
+        text-align: center;
+    }
+}
+/* LAYOUT */
+body {
+    margin: 0;
+}
+header {
+    width: 90%;  
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 2em 0;
+}
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 675px) {
+    .container-nav{
+        flex-direction: column;
    
+    }
 }
-nav {
-    margin: 20px 0px;
-}
+/* NAVIGATION */
 nav ul{
     list-style: none;
     padding: 0;
@@ -29,7 +46,7 @@ nav ul{
     justify-content: center;
 }
 nav li{
-    margin: 10px;
+    margin-left: 2em;
 }
 nav a{
     text-decoration: none;
@@ -38,9 +55,27 @@ nav a{
     font-size: 1 rem;
     font-weight: bold;
     color: #707070; 
-    padding: 3px;
+    padding: .25em 0;
 }
 
-nav a:hover {
-    border-bottom: solid 1px #707070;
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+.current-page{
+    border-bottom: solid  1px #707070;
+}
+.current-page:hover,
+.current-page:focus {
+    color: #707070; 
+}
+@media (max-width: 675px) {
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+  nav li{
+    margin: .75em 0;
+  }
 }
