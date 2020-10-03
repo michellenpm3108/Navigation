@@ -3,15 +3,15 @@
 h1{
     margin: 0;
     font-family: Lora;
-    font-size: 2 rem;
-    color: #143774;
+    font-size: 3 rem;
+    color: #4e3727;
 }
 .subtitle {
     margin: 0;
     font-family: ubuntu;
-    font-size: .75 rem;
+    font-size: 1 rem;
     font-weight: bold;
-    color: #1792d2;  
+    color: #7a604d;  
 }
 @media (max-width: 675px) {
     .site-title{
@@ -53,7 +53,6 @@ nav a{
     text-transform: uppercase;
     font-family: ubuntu;
     font-size: 1 rem;
-    font-weight: bold;
     color: #707070; 
     padding: .25em 0;
 }
