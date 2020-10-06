@@ -1,10 +1,15 @@
-
-/* TYPOGRAPHY */
 body {
     font-family: Ubuntu;
     font-size: 1.125rem;
     font-weight: 300;
+    margin: 0;
 }
+img {
+    max-width: 100%;
+}
+
+/* TYPOGRAPHY */
+
 h1, h2, h3{
     font-family: Lora;
     font-weight: 400;
@@ -41,21 +46,33 @@ h1{
 }
 
 /* LAYOUT */
-body {
-    margin: 0;
+.container {
+    width: 90%;
+    margin: 0 auto;
 }
 header {
-    width: 90%;  
-    margin: 0 auto;
     background-color: #f8f8f8;
     padding: 2em 0;
 }
-.container-nav {
+.container-flex {
     display: flex;
     justify-content: space-between;
 }
+main {
+    width: 70%;
+}
+aside {
+    width: 25%;
+}
+footer {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em 0;
+    background-color: #ccad97;
+}
 @media (max-width: 675px) {
-    .container-nav{
+    .container-flex{
         flex-direction: column;
     }
     .site-title{
