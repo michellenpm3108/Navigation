@@ -43,6 +43,7 @@ h1{
 }
 .article-info {
     font-size: .875rem;
+    margin: 2em 0;
 }
 
 /* LAYOUT */
@@ -116,4 +117,11 @@ nav a:focus {
     nav li{
     margin: .75em 0;
   }
+}
+
+/* ARTICLES */
+.article-featured {
+    border-bottom: #707070 solid 1px;
+    padding-bottom: 2em;
+    margin-bottom: 3em;
 }
