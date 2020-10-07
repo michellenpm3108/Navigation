@@ -53,17 +53,10 @@ h1{
 header {
     background-color: #f8f8f8;
     padding: 2em 0;
+    text-align: center;
 }
-.container-flex {
-    display: flex;
-    justify-content: space-between;
-}
-main {
-    width: 70%;
-}
-aside {
-    width: 25%;
-}
+
+
 footer {
     max-width: 100%;
     text-align: center;
@@ -71,13 +64,18 @@ footer {
     padding: 1em 0;
     background-color: #ccad97;
 }
-@media (max-width: 675px) {
-    .container-flex{
-        flex-direction: column;
+@media (min-width: 675px) {
+    .container-flex {
+        display: flex;
+        justify-content: space-between;
     }
-    .site-title{
-        text-align: center;
+    main {
+        width: 70%;
     }
+    aside {
+        width: 25%;
+    }
+  
 }
 /* NAVIGATION */
 nav ul{
