@@ -6,6 +6,7 @@ body {
 }
 img {
     max-width: 100%;
+    display: block
 }
 
 /* TYPOGRAPHY */
@@ -29,6 +30,7 @@ h1{
 }
 .article-title{
     font-size: 1.5rem;
+    margin-top: 0;
 }
 .article-read-more{
     font-weight: 400;
@@ -124,4 +126,16 @@ nav a:focus {
     border-bottom: #707070 solid 1px;
     padding-bottom: 2em;
     margin-bottom: 3em;
+}
+.article-recent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    background-color: #ccad97;
+}
+.article-recent-main {
+    order: 1
+}
+.article-recent-secondary {
+    order: 0
 }
