@@ -77,6 +77,8 @@ footer {
     }
     aside {
         width: 30%;
+        min-width: 250px;
+        margin-left: 1em;
     }
   
 }
