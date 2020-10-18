@@ -74,7 +74,6 @@ header {
 
 
 footer {
-    max-width: 100%;
     text-align: center;
     margin-top: 2em;
     padding: 1em 0;
@@ -116,7 +115,7 @@ nav a{
 
 nav a:hover,
 nav a:focus {
-    color: #1792d2;
+    color: #b86830;
 }
 
 .current-page{
@@ -183,9 +182,12 @@ nav a:focus {
     margin-bottom: 2.5em;
     padding: 1em;
 }
+.widget-recent-post-title,
+.widget-title{
+    font-size: 1.25rem;
+}
 .widget-title{
     font-family: Ubuntu, serif;
-    font-size: 1.25rem;
     font-weight: 700;
 }
 .widget-body {
@@ -194,15 +196,15 @@ nav a:focus {
 .widget-recent-post {
     display: flex;
     flex-direction: column;
+    border-bottom: solid 1px  #EBEBEB;
+    margin-bottom: 1em;
 }
 .widget-recent-post-title {order: 1}
 .widget-image{order: 0}
 
-.widget-recent-middle-post{
-     border-top: solid 1px  #EBEBEB;
-     border-bottom: solid 1px  #EBEBEB;
-     padding-top: 1em;
-     margin-bottom: 1em;
+.widget-recent-post:last-child{
+    border: 0;
+    margin: 0;
 }
 .widget-recent-post-title {
     margin-top: 1em;
