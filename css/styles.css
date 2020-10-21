@@ -3,6 +3,7 @@ body {
     font-size: 1.125rem;
     font-weight: 300;
     margin: 0;
+    line-height: 1.7;
 }
 img {
     width: 100%;
@@ -179,6 +180,7 @@ header {
 .widget-body {
     color: #b86830;
     width: 70%;
+    line-height: 1.4;
     text-align: center;
 }
 .widget-recent-post {
