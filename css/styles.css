@@ -29,6 +29,7 @@ h1, h2, h3{
 h1{
     margin: 0;
     font-size: 2 rem;
+    letter-spacing: 3px;
 }
 .subtitle {
     margin: 0;
@@ -50,6 +51,7 @@ nav li{
 nav a{
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 3px;
     font-family: ubuntu;
     font-size: 1 rem;
     color: #707070; 
@@ -107,10 +109,11 @@ header {
 }
 .article-read-more{
     font-weight: 400;
-    font-size: .875rem;
+    font-size: .75rem;
     color:#b86830;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .article-read-more:hover{
     color:#4e3727; 
@@ -183,7 +186,7 @@ header {
 }
 .widget-body {
     color: #b86830;
-    width: 70%;
+    width: 80%;
     line-height: 1.4;
     text-align: center;
 }
@@ -207,7 +210,7 @@ header {
     font-size: 1.25rem;
 }
 .author-image {
-    width: 70%;
+    width: 80%;
     height: 200px;
     object-fit: cover;
     margin-bottom: 0;
@@ -229,6 +232,7 @@ footer {
 .footer-blog-name {
     font-family: Lora;
     font-weight: 400;
+    letter-spacing: 2px;
     color: #4e3727;
     margin-bottom: 0;
 }
